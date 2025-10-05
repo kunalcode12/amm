@@ -12,7 +12,7 @@
 
 ## Architecture
 
-![image](image.png)
+![image](image1.png)
 
 Resources:
 - [dean's AMM](https://github.com/deanmlittle/anchor-amm-2023)
