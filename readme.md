@@ -12,7 +12,9 @@ Each liquidity pool maintains independent state variables that define its behavi
 - **Token X & Y Balances** – Current reserves in the pool  
 - **LP Token Supply** – Tracks liquidity provider shares  
 - **Fee Rate** – Defines swap fees applied per trade  
-- **Lock Status** – Controls whether trading or liquidity actions are allowed  
+- **Lock Status** – Controls whether trading or liquidity actions are allowed
+
+![AMM Architecture](./image1.png)
 
 The system supports three main user operations and one admin operation:
 
@@ -41,13 +43,6 @@ All actions update the **AMM Pool State**, maintaining balance consistency acros
 - Designed for modularity — easily extendable to multi-token pools or advanced bonding curves.
 
 ---
-
-## 🖼️ Architecture Diagram
-
-![AMM Architecture](./image1.png)
-
----
-
 
 Resources:
 - [dean's AMM](https://github.com/deanmlittle/anchor-amm-2023)
